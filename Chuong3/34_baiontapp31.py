@@ -1,0 +1,3 @@
+n=int(input("n="))
+while n<=1 or n>=50:
+    print("Khong hop le!!!\nYeu cau nhap lai")

@@ -1,0 +1,7 @@
+ten=str(input('Ho ten:'))
+ngaycong=int(input('So ngay cong:'))
+gia=int(input('Don gia ngay cong:'))
+phucap=float(input('He so phu cap:'))
+tamung=int(input('Tam ung:'))
+luong=round(gia* ngaycong *phucap,1)
+print('Nhan vien',str(ten)+', Co tien Luong='+str(luong)+', Tam ung='+str(tamung),'va Thuc linh='+str(round(luong-tamung,1)))
